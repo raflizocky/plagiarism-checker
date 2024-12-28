@@ -4,7 +4,7 @@ An app that compares and evaluates the similarity between different titles.
 
 ## Demo
 
-<a href="https://github.com/raflizocky/plagiarism-checker/blob/main/demo-img/Demo.md">View Demo Images</a>
+<a href="https://github.com/raflizocky/plagiarism-checker/blob/master/demo-img/Demo.md">View Demo Images</a>
 
 ## Features
 
