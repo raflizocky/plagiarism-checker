@@ -1,7 +1,3 @@
-# Plagiarism Checker App
-
-An app that compares and evaluates the similarity between different titles.
-
 ## Demo
 
 <a href="https://github.com/raflizocky/plagiarism-checker/blob/master/demo-img/Demo.md">View Demo Images</a>
@@ -20,12 +16,10 @@ An app that compares and evaluates the similarity between different titles.
 
 ## Pre-requisites
 
--   Updated at: 2024-12-28
 -   Min. version:
     -   PHP >= 8.1
     -   Composer
-    -   Node.js
-    -   NPM
+    -   Node.js >= 16.x
     -   XAMPP/MAMP/Laragon/Herd/etc
 
 ## Installation
@@ -58,7 +52,7 @@ An app that compares and evaluates the similarity between different titles.
         DB_PASSWORD=your_mysql_password
         ```
 
-4. Terminal
+4. Open 2 terminal 
     - 1
         ```shell
         composer i ; php artisan key:generate ; php artisan mi:f --seed ; npm i ; npm run dev
@@ -83,26 +77,14 @@ An app that compares and evaluates the similarity between different titles.
     password: password
     ```
 
+## Contributing
+
+If you encounter any issues or would like to contribute to the project, feel free to:
+
+-   Report any [issues](https://github.com/raflizocky/plagiarism-checker/issues)
+-   Submit a [pull request](https://github.com/raflizocky/plagiarism-checker/pulls)
+-   Participate in [discussions](https://github.com/raflizocky/plagiarism-checker/discussions) for any questions, feedback, or suggestions
+
 ## License
 
-```
-Copyright (c) 2024 Rafli Zocky Leonard
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Code released under the [MIT License](https://github.com/raflizocky/plagiarism-checker/blob/master/LICENSE).
